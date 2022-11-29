@@ -35,10 +35,10 @@ int main()
 }
 
 void p_handler(int signo){
-	printf("Parent handler : call %d times.\n", ++i);
+	printf("Parent handler : call%d times.\n", ++i);
 }
 
 void c_handler(int signo) {
-	printf("CHild handler : call %d times.\n", ++i);
+	printf("CHild handler : call%d times.\n", ++i);
 }
 
